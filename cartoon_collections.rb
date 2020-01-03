@@ -27,7 +27,7 @@ def find_the_cheese(list)
   
   list.each{|element|
     if element.in?(cheese_types)
-      return true
+      return element
     end
   }
   return nil
