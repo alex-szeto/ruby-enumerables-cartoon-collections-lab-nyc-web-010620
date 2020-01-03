@@ -7,7 +7,9 @@ end
 
 def summon_captain_planet(planet)
   # Your code here
-  return planet.collect{|element| element + "!"}
+  output_array = []
+  output_array << planet.collect{|element| element + "!"}
+  return output_array
 end
 
 def long_planeteer_calls# code an argument here
