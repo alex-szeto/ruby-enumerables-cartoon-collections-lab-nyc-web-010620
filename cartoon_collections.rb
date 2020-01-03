@@ -24,5 +24,8 @@ end
 def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if list in 
+  
+  list.each{|element|
+    if 
+  }
 end
