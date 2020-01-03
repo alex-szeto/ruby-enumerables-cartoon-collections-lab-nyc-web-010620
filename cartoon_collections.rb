@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planet)
   # Your code here
-  output_array = planet.collect{|element| element[0].upcase + "!"}
+  output_array = planet.collect{|element| element.titlecase + "!"}
   puts output_array
   return output_array
 end
